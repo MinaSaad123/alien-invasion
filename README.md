@@ -70,11 +70,4 @@ If your system uses `python3`, substitute it for `python`. Run the game from the
 | Shoot | Spacebar |
 | Quit | **Q** or close the window |
 
-## How to play
-
-Click **Play**, then use the arrow keys to line up your shots. Press Spacebar to shoot. The fleet moves sideways, reverses direction at the screen edges, and drops toward your ship.
-
-An alien hitting the ship or reaching the bottom costs a ship. Clear the entire fleet to start the next level. After game over, click **Play** to reset the score, level, and speed for a new run.
-
-The high score is retained between games in the same session. It resets when you close the application, matching the book's base project.
 
