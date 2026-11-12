@@ -78,35 +78,3 @@ An alien hitting the ship or reaching the bottom costs a ship. Clear the entire 
 
 The high score is retained between games in the same session. It resets when you close the application, matching the book's base project.
 
-## Project files
-
-| File | Purpose |
-| --- | --- |
-| `alien_invasion.py` | Entry point, game loop, events, and collisions |
-| `settings.py` | Window, movement, bullets, and difficulty settings |
-| `ship.py` | Player ship and movement |
-| `alien.py` | Individual aliens |
-| `bullet.py` | Projectiles |
-| `button.py` | Play button |
-| `game_stats.py` | Score, level, and remaining ships |
-| `scoreboard.py` | Scoreboard and ship indicators |
-| `images/` | Original ship and alien bitmaps |
-| `docs/images/` | Screenshots used in this README |
-| `requirements.txt` | Pygame dependency |
-
-## Troubleshooting
-
-| Problem | Fix |
-| --- | --- |
-| `No module named pygame` | Activate your virtual environment and run `python -m pip install -r requirements.txt`. |
-| The game cannot find `images/ship.bmp` or `images/alien.bmp` | Change into the `alien-invasion` folder before launching. |
-| The game opens but does not move | Click **Play** first, then use the left and right arrow keys. |
-
-## Source and attribution
-
-- Author: **Eric Matthes**
-- Book: [Python Crash Course, Third Edition](https://nostarch.com/python-crash-course-3rd-edition)
-- [Official project snapshot](https://github.com/ehmatthes/pcc_3e/tree/3690082cad0aad58cedb4face741aa025d6e8d73/chapter_14/scoring)
-- Upstream commit: `3690082cad0aad58cedb4face741aa025d6e8d73`
-
-This repository packages the author's example for study; it does not claim original authorship of the game code or artwork. Setup instructions and dependency metadata were added here. No additional license is asserted over the upstream material.
